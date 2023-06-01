@@ -9,4 +9,8 @@ _____________  ____    |__| ____   _____/  |_
 \____ \_  __ \/  _ \   |  |/ __ \_/ ___\   __\                              
 |  |_> >  | \(  <_> )  |  \  ___/\  \___|  |                                
 |   __/|__|   \____/\__|  |\___  >\___  >__|                                
-|__|               \______|    \/     \/                                    
+|__|               \______|    \/     \/        
+
+
+
+This is one of my first projects in c++. I hope you will enjoy and help me update my project and make it even better!
