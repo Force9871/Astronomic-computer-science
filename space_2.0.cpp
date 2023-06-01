@@ -10,6 +10,9 @@ void print_color(const std::string& text) {
 }
 
 int main() {
+    int 
+     int menu_option = 2
+    while (menu_option !1) {
     srand(time(0));  // Seed the random number generator
 
     print_color("  _________                                          .__       .__     __   ");
@@ -71,7 +74,14 @@ int main() {
         default :
             print_color("Unknown");
             break;
-    }
-
+           std::cout << "              \n";
+            std::cout << "             \n";
+            std::cout << "Do you want to quit? (1) or do you want to insert another weight? (2)\n";
+            std::cin >> menu_option;
+            
+            if (menu_option == 1) {
+                return 0;
+            }
+    } 
     return 0;
 }
