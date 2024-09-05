@@ -13,14 +13,14 @@ void calc_weight();
 void calc_age();
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 void print_color(const std::string& text) {
-    // Generate random color (between 31 and 37)
+
     int color = rand() % 7 + 31;
     std::cout << "\033[1;" << color << "m" << text << "\033[0m\n";
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 void calc_weight() {
-     srand(time(0));  // Seed the random number generator
+     srand(time(0));
 
     print_color("  _________                                          .__       .__     __   ");
     print_color(" /   _____/__________    ____  ____   __  _  __ ____ |__| ____ |  |___/  |_ ");
@@ -55,7 +55,7 @@ void calc_weight() {
  /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     if (planet_type == 1) {
         system("clear");
-        srand(time(0));  // Seed the random number generator
+        srand(time(0));  
         print_color("  _________                                          .__       .__     __   ");
         print_color(" /   _____/__________    ____  ____   __  _  __ ____ |__| ____ |  |___/  |_ ");
         print_color(" \\_____  \\____ \\__  \\ _/ ___\\/ __ \\  \\ \\/ \\/ // __ \\|  |/ ___\\|  |  \\   __\\");
@@ -140,7 +140,7 @@ void calc_weight() {
         }
     }   
     else if (planet_type == 2) {
-        srand(time(0));  // Seed the random number generator
+        srand(time(0)); 
         system("clear");
 
         print_color("  _________                                          .__       .__     __   ");
@@ -249,7 +249,7 @@ void calc_weight() {
 
     if (planet_type == 3) {
         system("clear");
-        srand(time(0));  // Seed the random number generator
+        srand(time(0));  
         print_color("  _________                                          .__       .__     __   ");
         print_color(" /   _____/__________    ____  ____   __  _  __ ____ |__| ____ |  |___/  |_ ");
         print_color(" \\_____  \\____ \\__  \\ _/ ___\\/ __ \\  \\ \\/ \\/ // __ \\|  |/ ___\\|  |  \\   __\\");
@@ -333,7 +333,7 @@ void calc_weight() {
     }
     else if (planet_type == 4) {
         system("clear");
-        srand(time(0));  // Seed the random number generator
+        srand(time(0)); 
         print_color("  _________                                          .__       .__     __   ");
         print_color(" /   _____/__________    ____  ____   __  _  __ ____ |__| ____ |  |___/  |_ ");
         print_color(" \\_____  \\____ \\__  \\ _/ ___\\/ __ \\  \\ \\/ \\/ // __ \\|  |/ ___\\|  |  \\   __\\");
@@ -387,7 +387,7 @@ void calc_weight() {
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 void calc_age() {
-    srand(time(0));  // Seed the random number generator
+    srand(time(0));  
 
    print_color("  _________                                          .__       .__     __   ");
    print_color(" /   _____/__________    ____  ____   __  _  __ ____ |__| ____ |  |___/  |_ ");
@@ -469,7 +469,7 @@ print_color("8 = Neptune, A x 0.006");
 
 }
 int main() {
-    srand(time(0));  // Seed the random number generator
+    srand(time(0));  
 
    print_color("  _________                                          .__       .__     __   ");
    print_color(" /   _____/__________    ____  ____   __  _  __ ____ |__| ____ |  |___/  |_ ");
